@@ -1,0 +1,6 @@
+---
+deployment:
+  tasks:
+    - export REPOPATH=/home/aliraser/repositories/*
+    - export SITEPATH=/home/aliraser/public_html/d8.alira.by/sites/all/themes/custom/alira
+    - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
