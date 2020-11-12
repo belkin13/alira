@@ -1,0 +1,5 @@
+# Schema for the configuration files of the alira theme.
+
+alira.settings:
+  type: theme_settings
+  label: 'alira settings'
