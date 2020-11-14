@@ -1,6 +1,6 @@
 /* Mixin for generated backgrounds */
 @mixin bg-gen($modifier: '', $prefix: '.') {
-    @each $color, $hex in $colors { 
+    @each $color, $hex in $bg-colors { 
       #{$modifier}#{$prefix}#{$color} {
         background-color    : #{$hex} !important;
         @if $color contain "bg-blue" {
