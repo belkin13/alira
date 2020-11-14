@@ -1,0 +1,15 @@
+/* Mixin for generated backgrounds */
+@mixin bg-gen($modifier: '', $prefix: '.') {
+    @each $color, $hex in $colors { 
+      #{$modifier}#{$prefix}#{$color} {
+        background-color    : #{$hex} !important;
+        @if $color contain "bg-blue" {
+          .block-content {
+            h2, p {
+              color:$white;
+            }
+          }
+        }
+      }
+    }
+  }
