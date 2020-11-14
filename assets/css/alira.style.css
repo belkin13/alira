@@ -10129,3 +10129,7 @@ a.text-dark:hover, a.text-dark:focus {
 .navbar-brand img {
   width: 300px;
 }
+
+#main-menu {
+  width: 100%;
+}
