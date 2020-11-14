@@ -26,29 +26,24 @@
     <div class="{{ container }}">
   {% endif %}
 
-  {% block branding %}
-    {{ branding }}
-  {% endblock %}
+    {% block branding %}
+      {{ branding }}
+    {% endblock %}
 
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
- {% if container %}
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div id="main-menu" class="collapse navbar-collapse">
+      {% block left %}
+        {{ left }}
+      {% endblock %}
+
+      {% block right %}
+        {{ right }}
+      {% endblock %}
     </div>
-  {% endif %}
-   {% if container %}
-    <div id="main-menu" class="{{ container }}">
-  {% endif %}
-  <div class="collapse navbar-collapse">
-    {% block left %}
-      {{ left }}
-    {% endblock %}
-
-    {% block right %}
-      {{ right }}
-    {% endblock %}
-  </div>
-
+  
   {% if container %}
     </div>
   {% endif %}
