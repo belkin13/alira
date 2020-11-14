@@ -9392,3 +9392,7 @@ a.text-dark:hover, a.text-dark:focus {
 .invisible {
   visibility: hidden !important;
 }
+
+.navbar-brand {
+  width: 300px;
+}
