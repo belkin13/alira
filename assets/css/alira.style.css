@@ -9393,6 +9393,6 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important;
 }
 
-.navbar-brand {
+.navbar-brand img {
   width: 300px;
 }
