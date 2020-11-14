@@ -23,7 +23,7 @@
 
 <nav class="navbar navbar-expand-lg justify-content-between navbar-{{ color }} {{ placement }} {{ utility_classes|join(' ') }}">
   {% if container %}
-    <div class="{{ container }}">
+    <div class="{{ container }} flex-wrap">
   {% endif %}
 
     {% block branding %}
