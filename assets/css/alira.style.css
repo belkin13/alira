@@ -10158,3 +10158,8 @@ a.text-dark:hover, a.text-dark:focus {
 .bg-yellow .block-content h2, .bg-yellow .block-content p {
   color: #fff;
 }
+
+.front-slider {
+  max-width: 1200px;
+  margin: 0 auto 40px;
+}

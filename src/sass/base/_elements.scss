@@ -64,3 +64,9 @@ small {
 }
 
 @include bg-gen();
+
+//slider
+.front-slider {
+  max-width:1200px;
+  margin:0 auto 40px;
+}
