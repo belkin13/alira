@@ -27,11 +27,12 @@
   {% block content %}
     {{ content.field_image }}
 
-{{kint(content.field_file)}}
+{#{kint(content.field_file)}#}
     {% if content.body %}
         <div class="body-slide position-absolute">{{ content.body }}</div>
         {% if content.field_file %}
-            <a href="{{content.field_file.0['#url']}}" class="btn btn-primary">Скачать каталог</a>
+            {% set cat_url = file_url(content.field_file[0]['#file'].uri.value) %}
+            <a href="{{cat_url}}" class="btn btn-primary">Скачать каталог</a>
         {% endif %}
     {% endif %}
 
