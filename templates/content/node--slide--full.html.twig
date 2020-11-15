@@ -31,7 +31,10 @@
         <div class="body-slide position-absolute">{{ content.body }}</div>
     {% endif %}
 
-    {% if content.field_file.0['#url'] %}
+
+    {{kint(content.field_file)}}
+
+    {% if content.field_file %}
         <a href="{{content.field_file.0['#url']}}" class="btn btn-primary">Скачать каталог</a>
     {% endif %}
 
