@@ -26,5 +26,11 @@
 
   {% block content %}
     {{ content.field_image }}
+
+    {% if content.body %}
+        <div class="body-slide position-absolute">{{ content.body }}</div>
+    {% endif %}
+
+
   {% endblock %}
 </article>
