@@ -29,13 +29,14 @@
 
     {% if content.body %}
         <div class="body-slide position-absolute">{{ content.body }}</div>
+        {% if content.field_file %}
+            <a href="{{content.field_file.0['#url']}}" class="btn btn-primary">Скачать каталог</a>
+        {% endif %}
     {% endif %}
 
 
 
-    {% if content.field_file %}
-        <a href="{{content.field_file.0['#url']}}" class="btn btn-primary">Скачать каталог</a>
-    {% endif %}
+    
 
   {% endblock %}
 </article>
