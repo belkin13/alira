@@ -34,7 +34,7 @@
         {% if content.body %}
             {{ content.body }}
         {% endif %}
-        {% if content.field_file %}
+        {% if content.field_file[0]['#file'].uri.value %}
             {% set cat_url = file_url(content.field_file[0]['#file'].uri.value) %}
 
             {% if content.field_class_button.0 %}
