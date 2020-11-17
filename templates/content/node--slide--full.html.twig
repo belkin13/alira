@@ -37,12 +37,12 @@
             {% set cat_url = file_url(content.field_file[0]['#file'].uri.value) %}
 
             {% if content.field_class_button %}
-              {% set btn-class = content.field_class_button %}
+              {% set btn_class = content.field_class_button %}
             {% else %}
-              {% set btn-class = 'btn-primary' %}
+              {% set btn_class = 'btn-primary' %}
             {% endif %}
 
-            <a href="{{cat_url}}" target="_blank" class="btn {{btn-class}}">Скачать каталог</a>
+            <a href="{{cat_url}}" target="_blank" class="btn {{btn_class}}">Скачать каталог</a>
         {% endif %}
     </div>
     
