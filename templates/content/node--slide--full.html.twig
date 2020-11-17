@@ -28,14 +28,14 @@
     {{ content.field_image }}
 
 {#{kint(content.field_file)}#}
-    
+    {{kint(content)}}
     <div class="body-slide position-absolute">
         {% if content.body %}
             {{ content.body }}
         {% endif %}
         {% if content.field_file %}
             {% set cat_url = file_url(content.field_file[0]['#file'].uri.value) %}
-{{kint(content.field_class_button)}}
+
             {% if content.field_class_button.0 %}
               {% set btn_class = content.field_class_button.0.value %}
             {% else %}
