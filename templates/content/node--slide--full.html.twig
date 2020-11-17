@@ -27,7 +27,7 @@
   {% block content %}
     {{ content.field_image }}
 
-{#{kint(content.field_file)}#}
+{{ devel_dump(content.field_file) }}
 
     <div class="body-slide position-absolute">
         {% if content.body %}
