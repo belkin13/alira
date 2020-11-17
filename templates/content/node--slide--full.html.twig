@@ -27,8 +27,8 @@
   {% block content %}
     {{ content.field_image }}
 
-{{ devel_dump(content.field_class_button.0['#context'].value) }}
-{{ devel_dump(content.field_class_button.value) }}
+{#{ devel_dump(content.field_class_button.0['#context'].value) }#}
+
 
     <div class="body-slide position-absolute">
         {% if content.body %}
@@ -38,7 +38,7 @@
             {% set cat_url = file_url(content.field_file[0]['#file'].uri.value) %}
 
             {% if content.field_class_button.0 %}
-              {% set btn_class = content.field_class_button.0.value %}
+              {% set btn_class = content.field_class_button.0['#context'].value %}
             {% else %}
               {% set btn_class = 'btn-primary' %}
             {% endif %}
