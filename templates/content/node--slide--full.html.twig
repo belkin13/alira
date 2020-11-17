@@ -37,7 +37,7 @@
             {% set cat_url = file_url(content.field_file[0]['#file'].uri.value) %}
 
             {% if content.field_class_button %}
-              {% set btn_class = content.field_class_button %}
+              {% set btn_class = content.field_class_button[0] %}
             {% else %}
               {% set btn_class = 'btn-primary' %}
             {% endif %}
