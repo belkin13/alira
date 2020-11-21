@@ -90,8 +90,6 @@ small {
     padding:10px 40px;
     margin-top:30px;
   }
-
-  
 }
 
 .page__footer {
@@ -104,5 +102,8 @@ small {
     img {
       border-radius:5px 5px 0 0;
     }
+  }
+  .views-field-body {
+    background-color:$gray-500;
   }
 }
