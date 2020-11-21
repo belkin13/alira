@@ -10188,6 +10188,7 @@ a.text-dark:hover, a.text-dark:focus {
   margin-top: 30px;
 }
 
-.body-slide .page_footer {
+.body-slide .page__footer {
   background: #092d63;
+  padding: 40px 0;
 }
