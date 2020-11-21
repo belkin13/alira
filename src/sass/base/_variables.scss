@@ -36,9 +36,11 @@ $grays: map-merge(
 
 //$blue:    #007bff !default;
 $blue:    #21587f !default;
+$blue-logo: #0085ca !default;
 $blue-medium: #348ccb !default;
 $blue-light:    #8fcfff !default;
 $blue-accent: #42b0ff !default;
+$blue-dark: #092d63 !default;
 $indigo:  #6610f2 !default;
 $purple:  #6f42c1 !default;
 $pink:    #e83e8c !default;
@@ -83,7 +85,7 @@ $bg-colors: (
 $primary:       $blue !default;
 $secondary:     $gray-600 !default;
 $success:       $green !default;
-$info:          $cyan !default;
+$info:          $blue-logo !default;
 $warning:       $yellow !default;
 $danger:        $red !default;
 $light:         $gray-100 !default;
