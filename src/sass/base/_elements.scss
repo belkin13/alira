@@ -105,8 +105,11 @@ small {
   }
   .views-field-body {
     background-color:$gray-100;
-    flex: 1 0 auto;
-    padding: 20px;
+    flex:1 0 auto;
+    padding:20px;
+    font-size:14px;
+    font-weight:600;
+    text-transform:uppercase;
   }
   .owl-wrapper {
     display:flex !important;
@@ -117,5 +120,11 @@ small {
         flex-direction: column;
       }
     }
+  }
+}
+
+.footer-menu {
+  .nav-link {
+    color:#fff;
   }
 }
