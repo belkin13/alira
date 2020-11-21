@@ -10204,7 +10204,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .main-cards .owl-wrapper {
+  display: flex !important;
+}
+
+.main-cards .owl-wrapper .owl-item {
   display: flex;
+  flex: 1 0 auto;
 }
 
 .main-cards .owl-wrapper .owl-item .col-12 {
