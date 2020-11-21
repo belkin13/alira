@@ -104,6 +104,17 @@ small {
     }
   }
   .views-field-body {
-    background-color:$gray-500;
+    background-color:$gray-100;
+    flex: 1 0 auto;
+    padding: 20px;
+  }
+  .owl-wrapper {
+    display:flex;
+    .owl-item {
+      .col-12 {
+        display: flex;
+        flex-direction: column;
+      }
+    }
   }
 }

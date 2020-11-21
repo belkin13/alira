@@ -10198,5 +10198,16 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .main-cards .views-field-body {
-  background-color: #adb5bd;
+  background-color: #f8f9fa;
+  flex: 1 0 auto;
+  padding: 20px;
+}
+
+.main-cards .owl-wrapper {
+  display: flex;
+}
+
+.main-cards .owl-wrapper .owl-item .col-12 {
+  display: flex;
+  flex-direction: column;
 }
