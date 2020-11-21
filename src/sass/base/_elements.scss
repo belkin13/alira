@@ -91,8 +91,18 @@ small {
     margin-top:30px;
   }
 
-  .page__footer {
-    background:$blue-dark;
-    padding:40px 0;
+  
+}
+
+.page__footer {
+  background:$blue-dark;
+  padding:40px 0;
+}
+
+.main-cards {
+  .views-field-field-card-image {
+    img {
+      border-radius:5px 5px 0 0;
+    }
   }
 }
