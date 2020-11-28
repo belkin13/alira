@@ -10219,6 +10219,16 @@ a.text-dark:hover, a.text-dark:focus {
   flex-direction: column;
 }
 
+#views-bootstrap-slider-logo-owl-block-2 {
+  padding: 40px 100px;
+  background-color: #21587f;
+}
+
+#views-bootstrap-slider-logo-owl-block-2 .row {
+  text-align: center;
+  align-items: center;
+}
+
 .footer-menu .nav-link {
   color: #fff;
 }

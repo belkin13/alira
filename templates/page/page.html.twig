@@ -33,7 +33,7 @@
     {% endblock %}
   {% endembed %}
 
-  <main class="pt-5 pb-5">
+  <main class="pt-5">
     {% if page.header %}
       <header class="page__header mb-3">
         <div class="container">
@@ -43,9 +43,16 @@
     {% endif %}
 
     {% if page.content %}
-      <div class="page__content">
+      <div class="page__content pb-5">
         
           {{ page.content }}
+        
+      </div>
+    {% endif %}
+    {% if page.page_bottom %}
+      <div class="page__bottom">
+        
+          {{ page.page_bottom }}
         
       </div>
     {% endif %}
