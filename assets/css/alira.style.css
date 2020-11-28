@@ -10229,6 +10229,10 @@ a.text-dark:hover, a.text-dark:focus {
   align-items: center;
 }
 
+.contact-block p {
+  color: #fff;
+}
+
 .footer-menu .nav-link {
   color: #fff;
 }
