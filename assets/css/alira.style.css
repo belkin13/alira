@@ -10237,6 +10237,7 @@ a.text-dark:hover, a.text-dark:focus {
 .contact-block .phone {
   display: inline-flex;
   align-items: center;
+  margin-left: 10px;
 }
 
 .contact-block .phone img {
