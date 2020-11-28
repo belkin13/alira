@@ -10233,6 +10233,19 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fff;
 }
 
+.contact-block .phone {
+  display: flex;
+  align-items: center;
+}
+
+.contact-block a {
+  color: #8fcfff;
+}
+
+.contact-block a:hover, .contact-block a:focus {
+  color: #8fcfff;
+}
+
 .footer-menu .nav-link {
   color: #fff;
 }

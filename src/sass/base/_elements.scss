@@ -136,6 +136,16 @@ small {
   p {
     color:$white;
   }
+  .phone {
+    display:flex;
+    align-items:center;
+  } 
+  a {
+    color:$blue-light;
+    &:hover, &:focus {
+      color:$blue-light;
+    }
+  }
 }
 
 .footer-menu {
