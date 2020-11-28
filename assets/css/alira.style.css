@@ -10231,10 +10231,11 @@ a.text-dark:hover, a.text-dark:focus {
 
 .contact-block p {
   color: #fff;
+  margin-bottom: 0;
 }
 
 .contact-block .phone {
-  display: flex;
+  display: inline-flex;
   align-items: center;
 }
 

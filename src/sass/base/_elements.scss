@@ -135,9 +135,10 @@ small {
 .contact-block {
   p {
     color:$white;
+    margin-bottom:0;
   }
   .phone {
-    display:flex;
+    display:inline-flex;
     align-items:center;
   } 
   a {
