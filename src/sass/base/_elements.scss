@@ -140,6 +140,9 @@ small {
   .phone {
     display:inline-flex;
     align-items:center;
+    img {
+      margin-top:2px;
+    }
   } 
   a {
     color:$blue-light;

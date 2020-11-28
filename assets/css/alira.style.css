@@ -10239,6 +10239,10 @@ a.text-dark:hover, a.text-dark:focus {
   align-items: center;
 }
 
+.contact-block .phone img {
+  margin-top: 2px;
+}
+
 .contact-block a {
   color: #8fcfff;
 }
