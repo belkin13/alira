@@ -41,19 +41,14 @@
         </div>
       </header>
     {% endif %}
-
     {% if page.content %}
-      <div class="page__content pb-5">
-        
-          {{ page.content }}
-        
+      <div class="page__content pb-5">   
+          {{ page.content }}   
       </div>
     {% endif %}
-    {% if page.page_bottom %}
-      <div class="page__bottom">
-        
-          {{ page.page_bottom }}
-        
+    {% if page.content_bottom %}
+      <div class="content_bottom">      
+          {{ page.content_bottom }}       
       </div>
     {% endif %}
   </main>
