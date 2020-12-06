@@ -92,6 +92,12 @@ small {
   }
 }
 
+.bg-white .slide__body {
+  background:rgba(256,256,256,.6);
+  padding:35px 30px;
+}
+
+
 .page__footer {
   background:$blue-dark;
   padding:40px 0;
