@@ -44,13 +44,11 @@
         {% endif %}
         {% if content.field_file[0]['#file'].uri.value %}
             {% set cat_url = file_url(content.field_file[0]['#file'].uri.value) %}
-
             {% if content.field_class_button.0 %}
               {% set btn_class = content.field_class_button.0['#context'].value %}
             {% else %}
               {% set btn_class = 'btn-primary' %}
-            {% endif %}          
-
+            {% endif %}
             <a href="{{cat_url}}" target="_blank" class="btn {{btn_class}}">Скачать каталог</a>
         {% endif %}
 
