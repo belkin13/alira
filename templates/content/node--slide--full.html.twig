@@ -42,17 +42,15 @@
         {% if content.body %}
             {{ content.body }}
         {% endif %}
-        {% if content.field_file[0]['#file'].uri.value %}
-            {% set cat_url = file_url(content.field_file[0]['#file'].uri.value) %}
-            {% if content.field_class_button.0 %}
+        {% if content.field_class_button.0 %}
               {% set btn_class = content.field_class_button.0['#context'].value %}
             {% else %}
               {% set btn_class = 'btn-primary' %}
-            {% endif %}
-            <a href="{{cat_url}}" target="_blank" class="btn {{btn_class}}">Скачать каталог</a>
         {% endif %}
-
-        {% if content.field_link.0['#url'] %}           
+        {% if content.field_file[0]['#file'].uri.value %}
+            {% set cat_url = file_url(content.field_file[0]['#file'].uri.value) %}   
+            <a href="{{cat_url}}" target="_blank" class="btn {{btn_class}}">Скачать каталог</a>
+        {% elseif content.field_link.0['#url'] %}           
             <a class="btn {{btn_class}}" href="{{content.field_link.0['#url']}}" target="">{{content.field_link.0['#title']}}</a>
         {% endif %}
 
