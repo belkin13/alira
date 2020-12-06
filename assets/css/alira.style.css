@@ -10193,8 +10193,18 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 35px 30px;
 }
 
+.bg-white .slide__body .btn {
+  text-transform: uppercase;
+}
+
 .btn-red {
   background-color: #c71434;
+  color: #fff;
+}
+
+.btn-red:hover, .btn-red:focus {
+  background-color: #c71434;
+  color: #fff;
 }
 
 .page__footer {

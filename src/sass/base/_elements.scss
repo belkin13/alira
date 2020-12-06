@@ -95,9 +95,17 @@ small {
 .bg-white .slide__body {
   background:rgba(256,256,256,.8);
   padding:35px 30px;
+  .btn {
+    text-transform:uppercase;
+  }
 }
 .btn-red {
   background-color:#c71434;
+  color:$white;
+  &:hover, &:focus {
+    background-color:darken($color:#c71434, $amount: 0.1) ;
+    color:$white;
+  }
 }
 
 .page__footer {
