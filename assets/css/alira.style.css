@@ -10186,15 +10186,12 @@ a.text-dark:hover, a.text-dark:focus {
   margin-right: auto;
   padding: 10px 40px;
   margin-top: 30px;
+  text-transform: uppercase;
 }
 
 .bg-white .slide__body {
   background: rgba(255, 255, 255, 0.8);
   padding: 35px 30px;
-}
-
-.bg-white .slide__body .btn {
-  text-transform: uppercase;
 }
 
 .btn-red {
