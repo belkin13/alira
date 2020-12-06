@@ -10193,6 +10193,10 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 35px 30px;
 }
 
+.btn-red {
+  background-color: #c71434;
+}
+
 .page__footer {
   background: #1b293f;
   padding: 40px 0;
