@@ -18,6 +18,7 @@
   not node.isPublished() ? 'node--unpublished',
   node.bundle|clean_class,
   node.bundle|clean_class ~ '--' ~ view_mode|clean_class,
+  content.field_class['#items'].getString()
 ]
 %}
 <article{{ attributes.addClass(classes) }}>
@@ -25,8 +26,11 @@
   {{ title_suffix }}
 
   {% block content %}
-    {{ content.field_image }}
 
+    {{ content.field_image }}
+    {% if content.field_slide_logo %}
+      {{ content.field_slide_logo }}
+    {% endif %}
 {#{ devel_dump(content.field_class_button.0['#context'].value) }#}
 
 
