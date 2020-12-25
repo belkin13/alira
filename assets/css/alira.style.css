@@ -10284,11 +10284,11 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 1.5rem;
 }
 
-.products-page .products-page__field-file .list-file-links {
+.products-page .list-file-links {
   margin-top: 3rem;
 }
 
-.products-page .products-page__field-file .list-file-links h2 {
+.products-page .list-file-links h2 {
   color: #21587f;
   margin-bottom: 2rem;
 }
