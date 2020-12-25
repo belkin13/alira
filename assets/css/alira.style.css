@@ -10292,3 +10292,10 @@ a.text-dark:hover, a.text-dark:focus {
   color: #21587f;
   margin-bottom: 2rem;
 }
+
+.references {
+  font-size: .8rem;
+  color: #6c757d;
+  font-weight: 300;
+  text-align: center;
+}
