@@ -10283,3 +10283,12 @@ a.text-dark:hover, a.text-dark:focus {
 .products-page .products-page__field-file .field__item {
   font-size: 1.5rem;
 }
+
+.products-page .products-page__field-file .list-file-links {
+  margin-top: 3rem;
+}
+
+.products-page .products-page__field-file .list-file-links h2 {
+  color: #21587f;
+  margin-bottom: 2rem;
+}
