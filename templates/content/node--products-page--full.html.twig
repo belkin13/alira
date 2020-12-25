@@ -20,7 +20,15 @@
 
   {% block content %}
     <div class="container">
-        {{ content }}
+        {% if content.body %}
+            <div class="products-page-body">
+                {{ content.body }}
+            </div>
+        {% if content.field_file %}
+            <div class="list-file-links">
+                {{ content.field_file }}
+            </div>
+        {% endif %}
     </div>
   {% endblock %}
 </article>
