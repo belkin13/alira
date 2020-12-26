@@ -104,15 +104,15 @@ small {
 }
 .slide__field-image {
   min-height:400px;
-  object-fit:cover;
-  -o-object-position:center;
-  object-position:center;
-  -webkit-transition:all 0.3s ease-in-out 0.3s;
-  transition:all 0.3s ease-in-out 0.3s;
-  height:100%;
-  position:absolute;
   @include media-breakpoint-up(lg){
     min-height:600px;
+  }
+  img {
+    object-fit:cover;
+    object-position:center;
+    transition:all 0.3s ease-in-out 0.3s;
+    height:100%;
+    position:absolute;
   }
 }
 .bg-white .slide__body {
