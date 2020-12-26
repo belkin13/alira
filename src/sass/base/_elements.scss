@@ -125,6 +125,19 @@ small {
     font-size:14px;
     font-weight:600;
     text-transform:uppercase;
+    .field-content {
+      display:flex;
+      flex-direction:column;
+      height:100%;
+      justify-content:space-between;
+    }
+    .wrap-btn {
+      display:flex;
+      align-items:center;
+      .btn {
+        max-width:200px;
+      }
+    }
   }
   .owl-wrapper {
     display:flex !important;
