@@ -10545,6 +10545,22 @@ a.text-dark:hover, a.text-dark:focus {
   text-transform: uppercase;
 }
 
+.slide__field-image {
+  min-height: 400px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  transition: all 0.3s ease-in-out 0.3s;
+  height: 100%;
+  position: absolute;
+}
+@media (min-width: 992px) {
+  .slide__field-image {
+    min-height: 600px;
+  }
+}
+
 .bg-white .slide__body {
   background: rgba(255, 255, 255, 0.8);
   padding: 35px 30px;

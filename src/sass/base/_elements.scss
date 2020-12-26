@@ -102,7 +102,19 @@ small {
     text-transform:uppercase;
   }
 }
-
+.slide__field-image {
+  min-height:400px;
+  object-fit:cover;
+  -o-object-position:center;
+  object-position:center;
+  -webkit-transition:all 0.3s ease-in-out 0.3s;
+  transition:all 0.3s ease-in-out 0.3s;
+  height:100%;
+  position:absolute;
+  @include media-breakpoint-up(lg){
+    min-height:600px;
+  }
+}
 .bg-white .slide__body {
   background:rgba(256,256,256,.8);
   padding:35px 30px;
