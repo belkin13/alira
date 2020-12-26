@@ -10570,7 +10570,8 @@ a.text-dark:hover, a.text-dark:focus {
   align-items: center;
 }
 .main-cards .views-field-body .wrap-btn .btn {
-  max-width: 200px;
+  max-width: 160px;
+  width: 100%;
 }
 .main-cards .owl-wrapper {
   display: flex !important;
