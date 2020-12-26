@@ -83,6 +83,16 @@ small {
   flex-direction:column;
   h2 {
     text-transform:uppercase;
+    font-size:1.2rem;
+    @include media-breakpoint-up(md){
+      font-size:1.5rem;
+    }
+    @include media-breakpoint-up(lg){
+      font-size:1.8rem;
+    }
+    @include media-breakpoint-up(xl){
+      font-size:2rem;
+    }
   }
   a.btn {
     margin-left:auto;

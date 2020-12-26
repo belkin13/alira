@@ -10520,6 +10520,22 @@ a.text-dark:hover, a.text-dark:focus {
 }
 .body-slide h2 {
   text-transform: uppercase;
+  font-size: 1.2rem;
+}
+@media (min-width: 768px) {
+  .body-slide h2 {
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .body-slide h2 {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  .body-slide h2 {
+    font-size: 2rem;
+  }
 }
 .body-slide a.btn {
   margin-left: auto;
