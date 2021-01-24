@@ -10233,8 +10233,7 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 35px 30px;
 }
 
-.center-content-slide .slide__body {
-  background: rgba(255, 255, 255, 0.8);
+.center-content-slide .body-slide {
   width: 100%;
   justify-content: flex-start;
 }
