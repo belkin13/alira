@@ -120,6 +120,17 @@ small {
   padding:35px 30px;
   
 }
+
+.center-content-slide {
+  .slide__body {
+    background:rgba(256,256,256,.8);
+    width:100%;
+    justify-content:flex-start;
+  }
+}
+
+
+
 .btn-red {
   background-color:#c71434;
   color:$white;
