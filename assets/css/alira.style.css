@@ -10170,11 +10170,15 @@ a.text-dark:hover, a.text-dark:focus {
   left: 0;
   height: 100%;
   padding: 40px 40px 40px 120px;
-  width: 600px;
+  width: 680px;
   justify-content: center;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
+}
+
+.body-slide .slide__body {
+  width: 100%;
 }
 
 .body-slide h2 {
