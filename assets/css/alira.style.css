@@ -10347,6 +10347,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .main-cards .owl-wrapper .owl-item {
   display: flex;
+  overflow: hidden;
 }
 
 .main-cards .owl-wrapper .owl-item .col-12 {
