@@ -56,7 +56,10 @@ small {
 }
 .navbar-brand {
   img {
-    width:300px;
+    width:150px;
+    @include media-breakpoint-up(md){
+      width:300px;
+    }
   }
 }
 #main-menu {
