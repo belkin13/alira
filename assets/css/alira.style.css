@@ -10458,7 +10458,9 @@ a.text-dark:hover, a.text-dark:focus {
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-name {
   background-color: #f8f9fa;
   padding: 20px 15px;
-  font-size: 14px;
-  font-weight: 600;
   flex-grow: 1;
+  font-size: .9rem;
+  font-weight: 600;
+  line-height: 1.3em;
+  text-transform: uppercase;
 }
