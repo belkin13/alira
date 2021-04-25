@@ -322,5 +322,16 @@ small {
 .block--views-block--repair-menu-block-1 {
   .contextual-region {
     display:flex;
+    .views-row {
+      .views-field-field-image-repair-term {
+        border:1px solid #eee;
+      }
+      .views-field-name {
+        background-color:#f8f9fa;
+        padding:20px 15px;
+        font-size:14px;
+        font-weight:600;
+      }
+    }
   }
 }
