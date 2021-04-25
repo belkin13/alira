@@ -320,9 +320,12 @@ small {
 }
 
 .block--views-block--repair-menu-block-1 {
+  margin-bottom:3rem;
   .contextual-region {
     display:flex;
     .views-row {
+      display:flex;
+      flex-direction:column;
       .views-field-field-image-repair-term {
         border:1px solid #eee;
       }
@@ -331,6 +334,7 @@ small {
         padding:20px 15px;
         font-size:14px;
         font-weight:600;
+        flex-grow:1;
       }
     }
   }

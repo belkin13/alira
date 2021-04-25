@@ -10438,8 +10438,17 @@ a.text-dark:hover, a.text-dark:focus {
   display: inline-block;
 }
 
+.block--views-block--repair-menu-block-1 {
+  margin-bottom: 3rem;
+}
+
 .block--views-block--repair-menu-block-1 .contextual-region {
   display: flex;
+}
+
+.block--views-block--repair-menu-block-1 .contextual-region .views-row {
+  display: flex;
+  flex-direction: column;
 }
 
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-field-image-repair-term {
@@ -10451,4 +10460,5 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 20px 15px;
   font-size: 14px;
   font-weight: 600;
+  flex-grow: 1;
 }
