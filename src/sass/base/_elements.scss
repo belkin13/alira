@@ -259,6 +259,10 @@ small {
 }
 
 .contact-block {
+  @include media-breakpoint-up(md){
+    display:block;
+
+  }
   p {
     color:$white;
     margin-bottom:0;
