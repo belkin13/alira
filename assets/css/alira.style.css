@@ -10472,6 +10472,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /* Mixin for generated backgrounds */
+h1 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+  letter-spacing: -0.3px;
+}
+
 h2 {
   font-size: 1.75rem;
   margin-bottom: 1.5rem;
