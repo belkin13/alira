@@ -18121,8 +18121,8 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! C:\Users\belkin\alira\alira\src\js\alira.script.js */"./src/js/alira.script.js");
-module.exports = __webpack_require__(/*! C:\Users\belkin\alira\alira\src\sass\alira.style.scss */"./src/sass/alira.style.scss");
+__webpack_require__(/*! C:\Users\belkin.DESKTOP-OUUSCPG.000\alira\alira\src\js\alira.script.js */"./src/js/alira.script.js");
+module.exports = __webpack_require__(/*! C:\Users\belkin.DESKTOP-OUUSCPG.000\alira\alira\src\sass\alira.style.scss */"./src/sass/alira.style.scss");
 
 
 /***/ })
