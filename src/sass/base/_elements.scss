@@ -154,9 +154,8 @@ small {
 .main-cards {
   .views-field-field-card-image {
     border:1px solid #eee;
-    img {
-      border-radius:5px 5px 0 0;
-    }
+    border-radius:5px 5px 0 0;
+    overflow:hidden;
   }
   .views-field-body {
     background-color:$gray-100;
@@ -286,6 +285,7 @@ small {
 .footer-menu {
   .nav-link {
     color:#fff;
+    font-size:1.1rem;
   }
 }
 
@@ -329,6 +329,8 @@ small {
       flex-direction:column;
       .views-field-field-image-repair-term {
         border:1px solid #eee;
+        border-radius:5px 5px 0 0;
+        overflow:hidden;
       }
       .views-field-name {
         background-color:#f8f9fa;
