@@ -10127,6 +10127,15 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 /* Mixin for generated backgrounds */
+h2 {
+  font-size: 1.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.text-blue {
+  color: #0085ca;
+}
+
 .navbar-brand img {
   width: 150px;
 }
