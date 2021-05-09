@@ -22,12 +22,13 @@
   {% if multiple %}
     <div{{ attributes.addClass(classes) }}>
       {% for item in items %}
-      {{kint(item)}}
+      
         <div{{ item.attributes.addClass('field__item') }}>{{ item.content }}</div>
       {% endfor %}
     </div>
   {% else %}
     {% for item in items %}
+      {{kint(item)}}
       <div{{ attributes.addClass(classes) }}>{{ item.content }}</div>
     {% endfor %}
   {% endif %}
