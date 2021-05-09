@@ -56,6 +56,10 @@ function alira_preprocess_file_link(&$variables) {
     'file--' . file_icon_class($mime_type),
   ];
 
+  if (strtr($mime_type, ['/' => '-', '.' => '-',]) == 'application-pdf') {
+    $url = 'https://docs.google.com/viewer?url='.$url;
+  }
+
   // Set file classes to the options array.
   $variables['attributes'] = new Attribute($variables['attributes']);
   $variables['attributes']
