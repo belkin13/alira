@@ -58,12 +58,12 @@ function alira_preprocess_file_link(&$variables) {
 
   if (strtr($mime_type, ['/' => '-', '.' => '-',]) == 'application-pdf') {
     $url = 'https://docs.google.com/viewer?url='.$url;
-    $variables['link']['options']['target'] = '_blank';
+    $options['attributes']['title']['target'] = '_blank';
   }
 
   // Set file classes to the options array.
   $variables['attributes'] = new Attribute($variables['attributes']);
   $variables['attributes']
-    ->addClass($classes);
+    ->addClass($classes); 
   $variables['link'] = \Drupal::l($link_text, Url::fromUri($url, $options));
 }
