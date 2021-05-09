@@ -3,7 +3,9 @@
  * @file
  * Theme functions
  */
-use Drupal\file\Entity\File;
+use \Drupal\file\Entity\File;
+use \Drupal\Core\Template\Attribute;
+use \Drupal\Core\Url;
 
 // Include all files from the includes directory.
 $includes_path = dirname(__FILE__) . '/includes/*.inc';
