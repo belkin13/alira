@@ -10150,6 +10150,11 @@ h2 {
   width: 100%;
 }
 
+.path-user .user-login-form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
 .bg-blue {
   background-color: #21587f !important;
 }

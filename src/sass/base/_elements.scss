@@ -73,7 +73,12 @@ small {
 #main-menu {
   width:100%;
 }
-
+.path-user {
+  .user-login-form {
+      max-width:400px;
+      margin:0 auto;
+  }
+}
 @include bg-gen();
 
 //slider
