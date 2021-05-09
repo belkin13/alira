@@ -80,7 +80,12 @@ small {
 #main-menu {
   width:100%;
 }
+
 .path-user {
+  .page__content {
+    max-width:1280px;
+    margin:0 auto;
+  }
   .user-login-form {
       max-width:400px;
       margin:0 auto;
