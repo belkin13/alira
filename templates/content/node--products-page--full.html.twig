@@ -26,7 +26,7 @@
             </div>
             <div class="col-4">
                 <a data-target="#imgModal" data-toggle="modal" href="#">
-                    {{conntent.field_image_modal}}
+                    {{ content.field_image_modal }}
                     <span class="references">Нажмите по картинке для увеличения</span>
                 </a>    
             </div>
@@ -39,13 +39,13 @@
                         <h5 class="modal-title" id="imgModalLabel"></h5>
                         <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button></div>
                         <div class="modal-body">
-                            {{conntent.field_image_modal}}
+                            {{ content.field_image_modal }}
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    {{conntent.field_file}}
+    {{ content.field_file }}
   {% endblock %}
 </article>
