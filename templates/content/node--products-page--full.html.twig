@@ -46,11 +46,7 @@
             </div>
         </div>
     </div>
-    {{kint(content)}}
-    {#% for item in content.field_file %}
-        
-        <a href="{{ file_url(item.entity.uri.value) }}" target="_blank">Download File</a>
-    {% endfor %#}
+    {{content.field_file}}
 
   {% endblock %}
 </article>
