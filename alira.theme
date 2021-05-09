@@ -58,7 +58,7 @@ function alira_preprocess_file_link(&$variables) {
 
   if (strtr($mime_type, ['/' => '-', '.' => '-',]) == 'application-pdf') {
     $url = 'https://docs.google.com/viewer?url='.$url;
-    $options['attributes']['title']['target'] = '_blank';
+    $options['attributes']['target'] = '_blank';
   }
 
   // Set file classes to the options array.
