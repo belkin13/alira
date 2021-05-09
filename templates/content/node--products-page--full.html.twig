@@ -46,6 +46,10 @@
             </div>
         </div>
     </div>
-    {{ content.field_file }}
+    {% for item in content.field_file %}
+        {{item.entity}}
+        <a href="{{ file_url(item.entity.uri.value) }}" target="_blank">Download File</a>
+    {% endfor %}
+
   {% endblock %}
 </article>
