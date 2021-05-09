@@ -46,7 +46,7 @@
             </div>
         </div>
     </div>
-    {{dump(content.field_file)}}
+    {{dpm(content.field_file)}}
     {#% for item in content.field_file %}
         
         <a href="{{ file_url(item.entity.uri.value) }}" target="_blank">Download File</a>
