@@ -17,11 +17,12 @@
   label_display == 'visually_hidden' ? 'visually-hidden',
 ]
 %}
-{{dump(items)}}
+
 {% if label_hidden %}
   {% if multiple %}
     <div{{ attributes.addClass(classes) }}>
       {% for item in items %}
+      {{kint(item)}}
         <div{{ item.attributes.addClass('field__item') }}>{{ item.content }}</div>
       {% endfor %}
     </div>
