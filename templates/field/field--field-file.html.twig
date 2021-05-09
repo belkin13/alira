@@ -39,7 +39,6 @@
     <div class="field__items">
       {% endif %}
       {% for item in items %}
-        {{kint(item)}}
         <div{{ item.attributes.addClass('field__item') }}>{{ item.content }}</div>
       {% endfor %}
       {% if multiple %}
