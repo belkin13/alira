@@ -60,7 +60,7 @@ function alira_preprocess_file_link(&$variables) {
     $url = 'https://docs.google.com/viewer?url='.$url;
     $options['attributes']['target'] = '_blank';
   } else if ((strtr($mime_type, ['/' => '-', '.' => '-',]) == 'application-msword') || (strtr($mime_type, ['/' => '-', '.' => '-',]) == 'application-msexcel')) {
-    $url = 'https://docs.google.com/viewer?url='.$url;
+    $url = 'https://view.officeapps.live.com/op/embed.aspx?src='.$url;
     $options['attributes']['target'] = '_blank';
   }
 
