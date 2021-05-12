@@ -59,7 +59,12 @@ function alira_preprocess_file_link(&$variables) {
   if (strtr($mime_type, ['/' => '-', '.' => '-',]) == 'application-pdf') {
     $url = 'https://docs.google.com/viewer?url='.$url;
     $options['attributes']['target'] = '_blank';
+  } else if ((strtr($mime_type, ['/' => '-', '.' => '-',]) == 'application-msword') || (strtr($mime_type, ['/' => '-', '.' => '-',]) == 'application-msexcel')) {
+    $url = 'https://docs.google.com/viewer?url='.$url;
+    $options['attributes']['target'] = '_blank';
   }
+
+
 
   // Set file classes to the options array.
   $variables['attributes'] = new Attribute($variables['attributes']);
