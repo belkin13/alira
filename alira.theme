@@ -71,4 +71,45 @@ function alira_preprocess_file_link(&$variables) {
   $variables['attributes']
     ->addClass($classes); 
   $variables['link'] = \Drupal::l($link_text, Url::fromUri($url, $options));
+
+
+  if (isset($variables['file'])) {
+    $variables['fileLinkDisplay'] = [
+      'fileBundle' => $variables['file']
+        ->bundle(),
+      'fileCreatedTime' => $variables['file']
+        ->getCreatedTime(),
+      'fileChangedTime' => $variables['file']
+        ->getChangedTime(),
+      'fileFid' => $variables['file']
+        ->fid->value,
+      'fileLangcode' => $variables['file']
+        ->langcode->value,
+      'fileMime' => $variables['file']
+        ->getMimeType(),
+      'fileName' => $variables['file']
+        ->getFilename(),
+      'fileOwnerId' => $variables['file']
+        ->getOwnerId(),
+      'fileOwnerName' => $variables['file']
+        ->getOwner()->name->value,
+      'fileOwnerUserPictureUrl' => file_create_url($variables['file']
+        ->getOwner()->user_picture->entity->uri->value),
+      'fileSize' => $variables['file']
+        ->getSize(),
+      'fileSizeFormatted' => format_size($variables['file']
+        ->getSize()),
+      'fileStatus' => $variables['file']
+        ->status->value,
+      'fileUrl' => file_create_url($variables['file']
+        ->getFileUri()),
+      'fileUuid' => $variables['file']
+        ->uuid->value,
+    ];
+  }
+
+
+
+
+
 }
