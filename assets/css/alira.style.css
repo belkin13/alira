@@ -10502,15 +10502,12 @@ h2 {
 @media (min-width: 768px) {
   .navbar-dark .navbar-nav .nav-link {
     font-size: 17px;
-    padding-right: 1rem;
-    padding-left: 1rem;
   }
 }
 
 @media (min-width: 992px) {
   .navbar-dark .navbar-nav .nav-link {
     font-size: 18px;
-    padding-right: 1.5rem;
-    padding-left: 1.5rem;
+    margin-right: 1rem;
   }
 }

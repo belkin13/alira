@@ -379,13 +379,11 @@ small {
       color:$white;
       @include media-breakpoint-up(md){
         font-size:17px;
-        padding-right:1rem;
-        padding-left:1rem;
+        
       }
       @include media-breakpoint-up(lg){
         font-size:18px;
-        padding-right:1.5rem;
-        padding-left:1.5rem;
+        margin-right:1rem;
       }
     }
   }
