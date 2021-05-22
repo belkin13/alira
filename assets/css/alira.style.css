@@ -10225,20 +10225,42 @@ h2 {
   width: 100%;
 }
 
+.body-slide h3 {
+  font-size: .9rem;
+}
+
+@media (min-width: 768px) {
+  .body-slide h3 {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .body-slide h3 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .body-slide h3 {
+    font-size: 1.75rem;
+  }
+}
+
 .body-slide h2 {
   text-transform: uppercase;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 @media (min-width: 768px) {
   .body-slide h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 }
 
 @media (min-width: 992px) {
   .body-slide h2 {
-    font-size: 1.8rem;
+    font-size: 1.5rem;
   }
 }
 

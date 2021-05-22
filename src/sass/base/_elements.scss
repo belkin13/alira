@@ -105,19 +105,32 @@ small {}
   .slide__body {
     width:100%;
   }
-  h2 {
-    text-transform:uppercase;
-    font-size:1.2rem;
+  h3 {
+    font-size:.9rem;
     @include media-breakpoint-up(md){
-      font-size:1.5rem;
+      font-size:1rem;
     }
     @include media-breakpoint-up(lg){
-      font-size:1.8rem;
+      font-size:1.25rem;
+    }
+    @include media-breakpoint-up(xl){
+      font-size:1.75rem;
+    }
+  }
+  h2 {
+    text-transform:uppercase;
+    font-size:1rem;
+    @include media-breakpoint-up(md){
+      font-size:1.2rem;
+    }
+    @include media-breakpoint-up(lg){
+      font-size:1.5rem;
     }
     @include media-breakpoint-up(xl){
       font-size:2rem;
     }
   }
+
   a.btn {
     margin-left:auto;
     margin-right:auto;
