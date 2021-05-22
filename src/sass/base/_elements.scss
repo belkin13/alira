@@ -107,27 +107,35 @@ small {}
   }
   h3 {
     font-size:.9rem;
+    margin-bottom:1rem;
     @include media-breakpoint-up(md){
       font-size:1rem;
+      margin-bottom:1.2rem;
     }
     @include media-breakpoint-up(lg){
       font-size:1.25rem;
+      margin-bottom:1.3rem;
     }
     @include media-breakpoint-up(xl){
       font-size:1.75rem;
+      margin-bottom:1.5rem;
     }
   }
   h2 {
     text-transform:uppercase;
     font-size:1rem;
+    margin-bottom:1rem;
     @include media-breakpoint-up(md){
       font-size:1.2rem;
+      margin-bottom:1.2rem;
     }
     @include media-breakpoint-up(lg){
       font-size:1.5rem;
+      margin-bottom:1.3rem;
     }
     @include media-breakpoint-up(xl){
       font-size:2rem;
+      margin-bottom:1.5rem;
     }
   }
   .big-text {
