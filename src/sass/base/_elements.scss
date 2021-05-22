@@ -88,6 +88,7 @@ small {}
   top:0;
   left:0;
   height:100%;
+  width:100%;
   padding:1rem 1rem 1rem 1.5rem;
   justify-content:center;
   align-items:flex-start;
@@ -139,7 +140,7 @@ small {}
     position:absolute;
     left:0;
     top:0;
-    background:rgba(255,255,255,0.6);
+    background:rgba(255,255,255,0.4);
     @include media-breakpoint-up(lg){
       content:none;
     }
@@ -154,8 +155,10 @@ small {}
 }
 .bg-white .slide__body {
   background:rgba(256,256,256,.8);
-  padding:35px 30px;
-  
+  padding:15px 10px;
+  @include media-breakpoint-up(lg){
+    padding:35px 30px;
+  }
 }
 
 .center-content-slide {

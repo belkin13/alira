@@ -10206,6 +10206,7 @@ h2 {
   top: 0;
   left: 0;
   height: 100%;
+  width: 100%;
   padding: 1rem 1rem 1rem 1.5rem;
   justify-content: center;
   align-items: flex-start;
@@ -10274,7 +10275,7 @@ h2 {
   position: absolute;
   left: 0;
   top: 0;
-  background: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.4);
 }
 
 @media (min-width: 992px) {
@@ -10295,7 +10296,13 @@ h2 {
 
 .bg-white .slide__body {
   background: rgba(255, 255, 255, 0.8);
-  padding: 35px 30px;
+  padding: 15px 10px;
+}
+
+@media (min-width: 992px) {
+  .bg-white .slide__body {
+    padding: 35px 30px;
+  }
 }
 
 .center-content-slide .body-slide {
