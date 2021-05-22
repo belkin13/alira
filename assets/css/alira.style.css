@@ -10206,16 +10206,40 @@ h2 {
   top: 0;
   left: 0;
   height: 100%;
-  padding: 40px 40px 40px 120px;
-  width: 680px;
+  padding: 1rem 1rem 1rem 1.5rem;
   justify-content: center;
   align-items: flex-start;
   display: flex;
   flex-direction: column;
+  position: relative;
+}
+
+@media (min-width: 992px) {
+  .body-slide {
+    padding: 40px 40px 40px 120px;
+    width: 680px;
+  }
 }
 
 .body-slide .slide__body {
   width: 100%;
+}
+
+.body-slide .slide__body::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: rgba(255, 255, 255, 0.6);
+}
+
+@media (min-width: 992px) {
+  .body-slide .slide__body::before {
+    content: none;
+  }
 }
 
 .body-slide h2 {
