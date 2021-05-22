@@ -10490,3 +10490,14 @@ h2 {
   line-height: 1.3em;
   text-transform: uppercase;
 }
+
+.navbar-dark .navbar-nav .nav-link {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (min-width: 768px) {
+  .navbar-dark .navbar-nav .nav-link {
+    font-size: 18px;
+  }
+}

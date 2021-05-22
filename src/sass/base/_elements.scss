@@ -368,3 +368,15 @@ small {
     }
   }
 }
+
+.navbar-dark {
+  .navbar-nav {
+    .nav-link {
+      font-size:16px;
+      font-weight:500;
+      @include media-breakpoint-up(md){
+        font-size:18px;
+      }
+    }
+  }
+} 
