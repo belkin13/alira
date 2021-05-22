@@ -10148,6 +10148,12 @@ h2 {
 
 @media (min-width: 768px) {
   .navbar-brand img {
+    width: 220px;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-brand img {
     width: 300px;
   }
 }
