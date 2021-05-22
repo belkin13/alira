@@ -10407,6 +10407,13 @@ h2 {
 .contact-block p {
   color: #fff;
   margin-bottom: 0;
+  font-size: .75rem;
+}
+
+@media (min-width: 768px) {
+  .contact-block p {
+    font-size: 1rem;
+  }
 }
 
 .contact-block .phone {
