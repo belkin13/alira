@@ -131,7 +131,7 @@ small {}
   @include media-breakpoint-up(lg){
     min-height:600px;
   }
-  &::before {
+  &::after {
     content:"";
     display:block;
     width:100%;
@@ -139,7 +139,7 @@ small {}
     position:absolute;
     left:0;
     top:0;
-    box-shadow:rgba(255,255,255,0.6);
+    background:rgba(255,255,255,0.6);
     @include media-breakpoint-up(lg){
       content:none;
     }

@@ -10266,7 +10266,7 @@ h2 {
   }
 }
 
-.slide__field-image::before {
+.slide__field-image::after {
   content: "";
   display: block;
   width: 100%;
@@ -10274,11 +10274,11 @@ h2 {
   position: absolute;
   left: 0;
   top: 0;
-  box-shadow: rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.6);
 }
 
 @media (min-width: 992px) {
-  .slide__field-image::before {
+  .slide__field-image::after {
     content: none;
   }
 }
