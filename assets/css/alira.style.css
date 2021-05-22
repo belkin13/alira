@@ -10404,22 +10404,25 @@ h2 {
   align-items: center;
 }
 
+.contact-block {
+  text-align: left;
+}
+
 @media (min-width: 768px) {
   .contact-block {
     display: block;
   }
 }
 
+@media (min-width: 992px) {
+  .contact-block {
+    text-align: right;
+  }
+}
+
 .contact-block p {
   color: #000;
   margin-bottom: 0;
-  font-size: .75rem;
-}
-
-@media (min-width: 768px) {
-  .contact-block p {
-    font-size: 1rem;
-  }
 }
 
 @media (min-width: 992px) {
