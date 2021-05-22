@@ -10270,6 +10270,28 @@ h2 {
   }
 }
 
+.body-slide .big-text {
+  font-size: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  .body-slide .big-text {
+    font-size: 1.8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .body-slide .big-text {
+    font-size: 2.1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .body-slide .big-text {
+    font-size: 2.5rem;
+  }
+}
+
 .body-slide a.btn {
   margin-left: auto;
   margin-right: auto;
