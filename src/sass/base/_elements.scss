@@ -376,6 +376,7 @@ small {
       font-weight:500;
       padding-right:.5rem;
       padding-left:.5rem;
+      color:$white;
       @include media-breakpoint-up(md){
         font-size:17px;
         padding-right:1rem;
