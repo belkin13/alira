@@ -51,6 +51,7 @@ figcaption {}
 blockquote {}
 strong {}
 small {}
+
 .navbar-brand {
   img {
     width:150px;
@@ -269,14 +270,16 @@ small {}
 .contact-block {
   @include media-breakpoint-up(md){
     display:block;
-
   }
   p {
-    color:$white;
+    color:$black;
     margin-bottom:0;
     font-size:.75rem;
     @include media-breakpoint-up(md){
       font-size:1rem;
+    }
+    @include media-breakpoint-up(lg){
+      color:$white;
     }
   }
   .phone {

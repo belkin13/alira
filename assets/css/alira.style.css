@@ -10411,7 +10411,7 @@ h2 {
 }
 
 .contact-block p {
-  color: #fff;
+  color: #000;
   margin-bottom: 0;
   font-size: .75rem;
 }
@@ -10419,6 +10419,12 @@ h2 {
 @media (min-width: 768px) {
   .contact-block p {
     font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact-block p {
+    color: #fff;
   }
 }
 
