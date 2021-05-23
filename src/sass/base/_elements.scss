@@ -458,10 +458,26 @@ small {}
 .term-67  .term-card-67,
 .term-68  .term-card-68,
 .term-69  .term-card-69 {
-  .views-field-name {
-    background-color:$blue !important;
+  .views-field-name {   
     a {
       color:$white !important;
+      background-color:$blue !important;
+    }
+  }
+}
+.block--views-block--repair-menu-block-1 {
+  .views-field-name {
+    a {
+      color:$white !important;
+      font-weight:600;
+      font-size:18px;
+      text-align:center;
+      width:100%;
+      display:block;
+      &:hover, &:active {
+        text-decoration:none;
+        background-color:$blue !important;
+      }
     }
   }
 }
