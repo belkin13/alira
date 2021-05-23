@@ -456,22 +456,27 @@ small {}
         overflow:hidden;
       }  
       .wrap-link-card {
-        color:$blue;
-        display:flex;
-        align-items:center;
-        height:100%;
-        font-weight:600;
-        font-size:1.125rem;
-        line-height:1.3em;
-        text-transform:uppercase;
-        text-align:center;
-        width:100%;
-        padding:15px;
-        background-color:#f8f9fa;  
+        .views-field-name {
+          color:$blue;
+          display:flex;
+          align-items:center;
+          height:100%;
+          font-weight:600;
+          font-size:1.125rem;
+          line-height:1.3em;
+          text-transform:uppercase;
+          text-align:center;
+          width:100%;
+          padding:15px;
+          background-color:#f8f9fa; 
+        }
+         
         &:hover, &:active {
-          text-decoration:none;
-          background-color:$blue !important;
-          color:$white;
+          .views-field-name {
+            text-decoration:none;
+            background-color:$blue !important;
+            color:$white;
+          }
         }
       }
     }
