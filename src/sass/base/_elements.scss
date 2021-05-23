@@ -511,12 +511,13 @@ small {}
 .owl-theme .owl-controls .owl-page span {
   width:16px;
   height:16px;
-  margin: 5px 7px;
+  margin:5px 7px;
+  background-color:$blue;
 }
 
 .owl-theme .owl-controls .owl-page.active span,
 .owl-theme .owl-controls.clickable .owl-page:hover span {
   width:18px;
   height:18px;
-  margin: 4px 6px;
+  margin:4px 6px;
 }
