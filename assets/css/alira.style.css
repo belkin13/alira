@@ -10648,8 +10648,13 @@ h2 {
   flex-grow: 1;
 }
 
+.block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-name .field-content {
+  height: 100%;
+}
+
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-name a {
   color: #fff !important;
+  height: 100%;
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 1.3em;

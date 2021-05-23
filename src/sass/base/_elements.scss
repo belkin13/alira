@@ -457,8 +457,12 @@ small {}
       }
       .views-field-name { 
         flex-grow:1;
+        .field-content {
+          height:100%;
+        }
         a {
           color:$white !important;
+          height:100%;
           font-weight:600;
           font-size:1.125rem;
           line-height:1.3em;
