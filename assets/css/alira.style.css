@@ -10638,16 +10638,16 @@ h2 {
   flex-direction: column;
 }
 
+.block--views-block--repair-menu-block-1 .contextual-region .views-row:hover .views-field-name a, .block--views-block--repair-menu-block-1 .contextual-region .views-row:active .views-field-name a {
+  text-decoration: none;
+  background-color: #21587f !important;
+  color: #fff;
+}
+
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-field-image-repair-term {
   border: 1px solid #eee;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
-}
-
-.block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-field-image-repair-term .views-field-name a:hover, .block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-field-image-repair-term .views-field-name a:active {
-  text-decoration: none;
-  background-color: #21587f !important;
-  color: #fff;
 }
 
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-name {

@@ -450,22 +450,20 @@ small {}
     .views-row {
       display:flex;
       flex-direction:column;
+      &:hover, &:active {
+        .views-field-name { 
+          a { 
+            text-decoration:none;
+            background-color:$blue !important;
+            color:$white;
+          }
+        }
+      }
       .views-field-field-image-repair-term {
         border:1px solid #eee;
         border-radius:5px 5px 0 0;
         overflow:hidden;
-      }
-      .views-field-field-image-repair-term {
-        .views-field-name {
-          a {
-            &:hover, &:active {
-              text-decoration:none;
-              background-color:$blue !important;
-              color:$white;
-            }
-          }
-        }
-      }
+      }  
       .views-field-name { 
         flex-grow:1;
         .field-content {
