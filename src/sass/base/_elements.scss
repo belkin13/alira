@@ -457,13 +457,13 @@ small {}
       }  
       .wrap-link-card {
         height:100%;
-        .views-field-name {
-          color:$blue;     
+        color:$blue;
+        font-size:1.125rem;
+        line-height:1.3em;
+        text-transform:uppercase;
+        .views-field-name {         
           align-items:center;
           font-weight:600;
-          font-size:1.125rem;
-          line-height:1.3em;
-          text-transform:uppercase;
           text-align:center;
           width:100%;
           padding:15px;
@@ -472,11 +472,9 @@ small {}
           display:flex;
         }
         &:hover, &:active {
-          .views-field-name {
             text-decoration:none;
             background-color:$blue !important;
             color:$white;
-          }
         }
       }
     }
