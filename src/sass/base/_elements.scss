@@ -461,9 +461,9 @@ small {}
           height:100%;
         }
         a {
-          color:$blue !important;
+          color:$blue;
           display:flex;
-          justify-content:center;
+          align-items:center;
           height:100%;
           font-weight:600;
           font-size:1.125rem;

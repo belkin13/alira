@@ -10653,9 +10653,9 @@ h2 {
 }
 
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-name a {
-  color: #21587f !important;
+  color: #21587f;
   display: flex;
-  justify-content: center;
+  align-items: center;
   height: 100%;
   font-weight: 600;
   font-size: 1.125rem;
