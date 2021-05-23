@@ -449,39 +449,29 @@ small {}
     margin:0 -15px;
     .views-row {
       display:flex;
-      flex-direction:column;
-      &:hover, &:active {
-        .views-field-name { 
-          a { 
-            text-decoration:none;
-            background-color:$blue !important;
-            color:$white;
-          }
-        }
-      }
+      flex-direction:column; 
       .views-field-field-image-repair-term {
         border:1px solid #eee;
         border-radius:5px 5px 0 0;
         overflow:hidden;
       }  
-      .views-field-name { 
-        flex-grow:1;
-        .field-content {
-          height:100%;
-        }
-        a {
-          color:$blue;
-          display:flex;
-          align-items:center;
-          height:100%;
-          font-weight:600;
-          font-size:1.125rem;
-          line-height:1.3em;
-          text-transform:uppercase;
-          text-align:center;
-          width:100%;
-          padding:15px;
-          background-color:#f8f9fa;        
+      .wrap-link-card {
+        color:$blue;
+        display:flex;
+        align-items:center;
+        height:100%;
+        font-weight:600;
+        font-size:1.125rem;
+        line-height:1.3em;
+        text-transform:uppercase;
+        text-align:center;
+        width:100%;
+        padding:15px;
+        background-color:#f8f9fa;  
+        &:hover, &:active {
+          text-decoration:none;
+          background-color:$blue !important;
+          color:$white;
         }
       }
     }
