@@ -10646,10 +10646,6 @@ h2 {
 
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card {
   height: 100%;
-  color: #21587f;
-  font-size: 1.125rem;
-  line-height: 1.3em;
-  text-transform: uppercase;
 }
 
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card .views-field-name {
@@ -10661,10 +10657,17 @@ h2 {
   background-color: #f8f9fa;
   flex: 1 auto;
   display: flex;
+  color: #21587f;
+  font-size: 1.125rem;
+  line-height: 1.3em;
+  text-transform: uppercase;
 }
 
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card:hover, .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card:active {
   text-decoration: none;
+}
+
+.block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card:hover .views-field-name, .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card:active .views-field-name {
   background-color: #21587f !important;
   color: #fff;
 }

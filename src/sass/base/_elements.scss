@@ -456,11 +456,7 @@ small {}
         overflow:hidden;
       }  
       .wrap-link-card {
-        height:100%;
-        color:$blue;
-        font-size:1.125rem;
-        line-height:1.3em;
-        text-transform:uppercase;
+        height:100%;   
         .views-field-name {         
           align-items:center;
           font-weight:600;
@@ -470,11 +466,17 @@ small {}
           background-color:#f8f9fa; 
           flex:1 auto;
           display:flex;
+          color:$blue;
+          font-size:1.125rem;
+          line-height:1.3em;
+          text-transform:uppercase;
         }
         &:hover, &:active {
-            text-decoration:none;
+          text-decoration:none;
+          .views-field-name {       
             background-color:$blue !important;
             color:$white;
+          }
         }
       }
     }
