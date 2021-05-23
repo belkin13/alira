@@ -456,9 +456,9 @@ small {}
         overflow:hidden;
       }  
       .wrap-link-card {
+        height:100%;
         .views-field-name {
-          color:$blue;
-          display:flex;
+          color:$blue;     
           align-items:center;
           height:100%;
           font-weight:600;

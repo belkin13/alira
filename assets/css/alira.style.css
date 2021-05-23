@@ -10644,9 +10644,12 @@ h2 {
   overflow: hidden;
 }
 
+.block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card {
+  height: 100%;
+}
+
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card .views-field-name {
   color: #21587f;
-  display: flex;
   align-items: center;
   height: 100%;
   font-weight: 600;
