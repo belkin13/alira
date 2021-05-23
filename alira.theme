@@ -113,3 +113,12 @@ function alira_preprocess_file_link(&$variables) {
 
 
 }
+
+function alira_preprocess_html(&$variables) {
+  if (\Drupal::routeMatch()->getRouteName() == 'entity.taxonomy_term.canonical') {
+    // load the term entity and get the data from there
+    $term = \Drupal::routeMatch()->getParameter('taxonomy_term');
+    $variables['term_id'] = $term->id();
+    $variables['vocabulary_id'] = $term->bundle();
+  }
+}
