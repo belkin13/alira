@@ -10651,7 +10651,6 @@ h2 {
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card .views-field-name {
   color: #21587f;
   align-items: center;
-  height: 100%;
   font-weight: 600;
   font-size: 1.125rem;
   line-height: 1.3em;
@@ -10660,6 +10659,8 @@ h2 {
   width: 100%;
   padding: 15px;
   background-color: #f8f9fa;
+  flex: 1 auto;
+  display: flex;
 }
 
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card:hover .views-field-name, .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card:active .views-field-name {

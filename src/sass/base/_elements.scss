@@ -460,7 +460,6 @@ small {}
         .views-field-name {
           color:$blue;     
           align-items:center;
-          height:100%;
           font-weight:600;
           font-size:1.125rem;
           line-height:1.3em;
@@ -469,8 +468,9 @@ small {}
           width:100%;
           padding:15px;
           background-color:#f8f9fa; 
+          flex:1 auto;
+          display:flex;
         }
-         
         &:hover, &:active {
           .views-field-name {
             text-decoration:none;
