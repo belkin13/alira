@@ -10672,7 +10672,7 @@ h2 {
   color: #fff;
 }
 
-.owl-next, .owl-prev {
+.owl-theme .owl-controls .owl-buttons div {
   display: inline-block;
   width: 20px;
   height: 20px;
