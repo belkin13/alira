@@ -459,7 +459,9 @@ small {}
 .term-68  .term-card-68,
 .term-69  .term-card-69 {
   .views-field-name {
-    color:$white;
-    background-color:$blue;
+    background-color:$blue !important;
+    a {
+      color:$white !important;
+    }
   }
 }

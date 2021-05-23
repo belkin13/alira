@@ -10650,6 +10650,12 @@ h2 {
 .term-67 .term-card-67 .views-field-name,
 .term-68 .term-card-68 .views-field-name,
 .term-69 .term-card-69 .views-field-name {
-  color: #fff;
-  background-color: #21587f;
+  background-color: #21587f !important;
+}
+
+.term-66 .term-card-66 .views-field-name a,
+.term-67 .term-card-67 .views-field-name a,
+.term-68 .term-card-68 .views-field-name a,
+.term-69 .term-card-69 .views-field-name a {
+  color: #fff !important;
 }
