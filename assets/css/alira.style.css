@@ -10644,6 +10644,12 @@ h2 {
   overflow: hidden;
 }
 
+.block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-field-image-repair-term .views-field-name a:hover, .block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-field-image-repair-term .views-field-name a:active {
+  text-decoration: none;
+  background-color: #21587f !important;
+  color: #fff;
+}
+
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-name {
   flex-grow: 1;
 }
@@ -10663,11 +10669,6 @@ h2 {
   text-transform: uppercase;
   text-align: center;
   width: 100%;
-  padding: 20px 15px;
+  padding: 15px;
   background-color: #f8f9fa;
-}
-
-.block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-name a:hover, .block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-name a:active {
-  text-decoration: none;
-  background-color: #21587f !important;
 }
