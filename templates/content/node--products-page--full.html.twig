@@ -21,30 +21,36 @@
   {% block content %}
     <div class="container">
         <div class="d-flex">
-            <div class="col-8 p-0">
+            <div class="{% if content.field_image_modal %} col-8 {% endif %} p-0">
                 {{ content.body }}
             </div>
-            <div class="col-4">
-                <a data-target="#imgModal" data-toggle="modal" href="#">
-                    {{ content.field_image_modal }}
-                    <span class="references">Нажмите по картинке для увеличения</span>
-                </a>    
-            </div>
-        </div>
-        <!-- Modal -->
-        <div aria-hidden="true" aria-labelledby="imgModalLabel" class="modal fade" id="imgModal" tabindex="-1">
-            <div class="modal-dialog modal-xl">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="imgModalLabel"></h5>
-                        <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
-                    </div>
-                    <div class="modal-body">
+            {% if content.field_image_modal %}
+                <div class="col-4">
+                    <a data-target="#imgModal" data-toggle="modal" href="#">
                         {{ content.field_image_modal }}
+                        <span class="references">Нажмите по картинке для увеличения</span>
+                    </a>    
+                </div>
+            {% endif %}    
+        </div>
+
+        {% if content.field_image_modal %}
+            <!-- Modal -->
+            <div aria-hidden="true" aria-labelledby="imgModalLabel" class="modal fade" id="imgModal" tabindex="-1">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="imgModalLabel"></h5>
+                            <button aria-label="Close" class="close" data-dismiss="modal" type="button"><span aria-hidden="true">×</span></button>
+                        </div>
+                        <div class="modal-body">
+                            {{ content.field_image_modal }}
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
+        {% endif %}
+            
         <div class="col-12 p-0">
             {{content.field_file}}
         </div> 
