@@ -21,10 +21,10 @@
   {% block content %}
     <div class="container">
         <div class="d-flex">
-            <div class="{% if content.field_image_modal is not empty %} col-8 {% endif %} p-0">
+            <div class="{% if content.field_image_modal|render %} col-8 {% endif %} p-0">
                 {{ content.body }}
             </div>
-            {% if content.field_image_modal is not empty %}
+            {% if content.field_image_modal|render %}
                 <div class="col-4">
                     <a data-target="#imgModal" data-toggle="modal" href="#">
                         {{ content.field_image_modal }}
@@ -34,7 +34,7 @@
             {% endif %}    
         </div>
 
-        {% if content.field_image_moda is not empty %}
+        {% if content.field_image_moda|render %}
             <!-- Modal -->
             <div aria-hidden="true" aria-labelledby="imgModalLabel" class="modal fade" id="imgModal" tabindex="-1">
                 <div class="modal-dialog modal-xl">
