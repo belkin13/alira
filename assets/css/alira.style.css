@@ -10739,4 +10739,9 @@ h2 {
 .block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .card-body {
   align-items: center;
   display: flex;
+  background-color: #f8f9fa;
+}
+
+.block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .card-body h6 {
+  color: #000;
 }
