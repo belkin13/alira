@@ -10719,3 +10719,8 @@ h2 {
 .block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item > div, .block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .views-field, .block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .field-content, .block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .card {
   height: 100%;
 }
+
+.block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .card-body {
+  align-items: center;
+  display: flex;
+}

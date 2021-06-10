@@ -529,6 +529,10 @@ small {}
       > div, .views-field, .field-content, .card {
         height:100%;
       }
+      .card-body {
+        align-items:center;
+        display:flex;
+      }
     }
   }
 }
