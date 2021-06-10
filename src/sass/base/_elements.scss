@@ -539,6 +539,10 @@ small {}
       .card-body {
         align-items:center;
         display:flex;
+        background-color:#f8f9fa;
+        h6 {
+          color:$black;
+        }
       }
     }
   }
