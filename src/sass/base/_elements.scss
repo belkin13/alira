@@ -521,3 +521,14 @@ small {}
   height:18px;
   margin:4px 6px;
 }
+
+.block--views-block--gallery-reports-block-1 {
+  .owl-wrapper {
+    display:flex !important;
+    .owl-item {
+      > div, .views-field, .field-content {
+        height:100%;
+      }
+    }
+  }
+}
