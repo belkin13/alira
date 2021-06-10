@@ -523,6 +523,13 @@ small {}
 }
 
 .block--views-block--gallery-reports-block-1 {
+  margin-bottom:2rem;
+  @include media-breakpoint-up(md){
+    margin-bottom:3rem;
+  }
+  @include media-breakpoint-up(lg){
+    margin-bottom:4rem;
+  }
   .owl-wrapper {
     display:flex !important;
     .owl-item {

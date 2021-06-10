@@ -10712,6 +10712,22 @@ h2 {
   margin: 4px 6px;
 }
 
+.block--views-block--gallery-reports-block-1 {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .block--views-block--gallery-reports-block-1 {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .block--views-block--gallery-reports-block-1 {
+    margin-bottom: 4rem;
+  }
+}
+
 .block--views-block--gallery-reports-block-1 .owl-wrapper {
   display: flex !important;
 }
