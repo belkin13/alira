@@ -526,7 +526,7 @@ small {}
   .owl-wrapper {
     display:flex !important;
     .owl-item {
-      > div, .views-field, .field-content {
+      > div, .views-field, .field-content, .card {
         height:100%;
       }
     }
