@@ -10682,7 +10682,7 @@ h2 {
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card:hover .views-field-name, .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card:active .views-field-name {
   background-color: #21587f !important;
   color: #fff;
-  transition: all 0.3s ease-in-out 0.3s;
+  transition: all 0.1s ease-in-out 0.1s;
 }
 
 .owl-theme .owl-controls {
