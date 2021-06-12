@@ -10634,7 +10634,6 @@ h2 {
 .term-69 .term-card-69 .wrap-link-card .views-field-name {
   color: #fff !important;
   background-color: #21587f !important;
-  transition: background-color 0.3s ease-in-out 0.3s;
 }
 
 .block--views-block--repair-menu-block-1 {
@@ -10683,6 +10682,7 @@ h2 {
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card:hover .views-field-name, .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card:active .views-field-name {
   background-color: #21587f !important;
   color: #fff;
+  transition: background-color 0.3s ease-in-out 0.3s;
 }
 
 .owl-theme .owl-controls {

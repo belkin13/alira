@@ -447,7 +447,6 @@ small {}
     .views-field-name {   
       color:$white !important;
       background-color:$blue !important;
-      transition:background-color 0.3s ease-in-out 0.3s;
     }
   }
 }
@@ -486,6 +485,7 @@ small {}
           .views-field-name {       
             background-color:$blue !important;
             color:$white;
+            transition:background-color 0.3s ease-in-out 0.3s;
           }
         }
       }
