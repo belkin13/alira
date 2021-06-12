@@ -10198,7 +10198,19 @@ h2 {
 
 .front-slider {
   max-width: 1600px;
-  margin: 0 auto 40px;
+  margin: 0 auto 30px;
+}
+
+@media (min-width: 768px) {
+  .front-slider {
+    margin: 0 auto 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  .front-slider {
+    margin: 0 auto 60px;
+  }
 }
 
 .body-slide {

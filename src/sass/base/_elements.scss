@@ -81,7 +81,14 @@ small {}
 //slider
 .front-slider {
   max-width:1600px;
-  margin:0 auto 40px;
+  margin:0 auto 30px;
+  @include media-breakpoint-up(md){
+    margin:0 auto 40px;
+  }
+  @include media-breakpoint-up(lg){
+    margin:0 auto 60px;
+  }
+
 }
 .body-slide {
   z-index:1;
