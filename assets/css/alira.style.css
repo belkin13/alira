@@ -10751,6 +10751,12 @@ h2 {
 
 @media (min-width: 992px) {
   .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card .views-field-name {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card .views-field-name {
     font-size: 1.125rem;
   }
 }
