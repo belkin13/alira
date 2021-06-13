@@ -1,0 +1,36 @@
+{#
+/**
+ * @file
+ * Template for a Node component.
+ */
+#}
+{%
+  set classes = [
+  'node',
+  node.isPromoted() ? 'node--promoted',
+  node.isSticky() ? 'node--sticky',
+  not node.isPublished() ? 'node--unpublished',
+  node.bundle|clean_class,
+  node.bundle|clean_class ~ '--' ~ view_mode|clean_class,
+]
+%}
+<article{{ attributes.addClass(classes) }}>
+  {{ title_prefix }}
+  {{ title_suffix }}
+
+  {% block content %}
+    <div class="container">
+        <div class="d-flex">
+            {% if content.field_gallery|render %}
+                <div class="col-4">  
+                    {{ content.field_gallery }}
+                    <span class="references">Нажмите по картинке для просмотра галереи</span>               
+                </div>
+            {% endif %}  
+            <div class="{% if content.field_gallery|render %} col-8 {% endif %} p-0">
+                {{ content.body }}
+            </div>            
+        </div>
+    </div>
+  {% endblock %}
+</article>
