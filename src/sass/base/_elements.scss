@@ -562,3 +562,13 @@ small {}
     }
   }
 }
+
+.repair-report__field-gallery {
+    .card {
+        .img-fluid {
+            object-fit:contain;
+            position:relative;
+            width:100%;
+        }
+    }
+}
