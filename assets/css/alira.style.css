@@ -10709,12 +10709,12 @@ h2 {
   border: 1px solid #eee;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
-  max-width: 130px;
+  width: 100px;
 }
 
 @media (min-width: 768px) {
   .block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-field-image-repair-term {
-    max-width: 180px;
+    width: 130px;
   }
 }
 
