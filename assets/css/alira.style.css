@@ -10777,6 +10777,10 @@ h2 {
   transition: all 0.25s ease-in-out 0.1s;
 }
 
+.wrap-repair-report:hover, .wrap-repair-report:focus, .wrap-repair-report:active {
+  text-decoration: none;
+}
+
 .owl-theme .owl-controls {
   margin-top: 1.5rem;
 }

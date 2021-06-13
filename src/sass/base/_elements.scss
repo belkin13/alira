@@ -544,6 +544,11 @@ small {}
     }
   }
 }
+.wrap-repair-report {
+  &:hover, &:focus, &:active {
+    text-decoration:none;
+  }
+}
 .owl-theme .owl-controls {
   margin-top:1.5rem;
   .owl-buttons {
