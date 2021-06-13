@@ -23,12 +23,12 @@
         <div class="d-flex flex-wrap">
             <h1 class="title-repair-report col-12 p-0">{{ node.label }}</h1>
             {% if content.field_gallery|render %}
-                <div class="col-6 pr-0 pl-5">  
+                <div class="col-6 p-0">  
                     {{ content.field_gallery }}
                     <span class="references">Нажмите по картинке для просмотра галереи</span>               
                 </div>
             {% endif %}  
-            <div class="{% if content.field_gallery|render %} col-6 {% endif %} pl-3 pr-0">
+            <div class="{% if content.field_gallery|render %} col-6 {% endif %} pl-5 pr-0">
                 
                 {{ content.body }}
             </div>            
