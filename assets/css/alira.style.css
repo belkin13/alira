@@ -10544,8 +10544,20 @@ h2 {
 }
 
 #views-bootstrap-slider-logo-owl-block-2 {
-  padding: 40px 100px;
+  padding: 1.5rem;
   background-color: #eee;
+}
+
+@media (min-width: 768px) {
+  #views-bootstrap-slider-logo-owl-block-2 {
+    padding: 2rem 2.5rem;
+  }
+}
+
+@media (min-width: 992px) {
+  #views-bootstrap-slider-logo-owl-block-2 {
+    padding: 3rem 6rem;
+  }
 }
 
 #views-bootstrap-slider-logo-owl-block-2 .row {
