@@ -22,12 +22,12 @@
     <div class="container">
         <div class="d-flex">
             {% if content.field_gallery|render %}
-                <div class="col-4">  
+                <div class="col-6">  
                     {{ content.field_gallery }}
                     <span class="references">Нажмите по картинке для просмотра галереи</span>               
                 </div>
             {% endif %}  
-            <div class="{% if content.field_gallery|render %} col-8 {% endif %} p-0">
+            <div class="{% if content.field_gallery|render %} col-6 {% endif %} pl-3 pr-0">
                 {{ content.body }}
             </div>            
         </div>
