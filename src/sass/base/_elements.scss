@@ -507,9 +507,9 @@ small {}
         .views-field-name {         
           align-items:center;
           font-weight:600;
-          text-align:center;
+          justify-content:center;
           width:100%;
-          padding:15px;
+          padding:10px 15px;
           background-color:#f8f9fa; 
           flex:1 auto;
           display:flex;
@@ -524,7 +524,7 @@ small {}
             font-size:.85rem;
           }
           @include media-breakpoint-up(xl){
-            font-size:1.125rem;
+            font-size:1rem;
           }
         }
         &:hover, &:active {

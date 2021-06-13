@@ -10731,9 +10731,9 @@ h2 {
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card .views-field-name {
   align-items: center;
   font-weight: 600;
-  text-align: center;
+  justify-content: center;
   width: 100%;
-  padding: 15px;
+  padding: 10px 15px;
   background-color: #f8f9fa;
   flex: 1 auto;
   display: flex;
@@ -10757,7 +10757,7 @@ h2 {
 
 @media (min-width: 1200px) {
   .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card .views-field-name {
-    font-size: 1.125rem;
+    font-size: 1rem;
   }
 }
 
