@@ -499,7 +499,7 @@ small {}
             width:130px;
         }
         @include media-breakpoint-up(lg){
-            max-width:none;
+            width:auto;
         }
       }  
       .wrap-link-card {

@@ -10720,7 +10720,7 @@ h2 {
 
 @media (min-width: 992px) {
   .block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-field-image-repair-term {
-    max-width: none;
+    width: auto;
   }
 }
 
