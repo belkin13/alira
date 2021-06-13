@@ -625,3 +625,9 @@ small {}
         }
     }
 }
+.image-logo-list {
+  display:flex;
+  width:100%;
+  justify-content:space-around;
+  margin-bottom:1rem;
+}
