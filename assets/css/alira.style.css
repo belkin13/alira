@@ -10709,6 +10709,19 @@ h2 {
   border: 1px solid #eee;
   border-radius: 5px 5px 0 0;
   overflow: hidden;
+  max-width: 130px;
+}
+
+@media (min-width: 768px) {
+  .block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-field-image-repair-term {
+    max-width: 180px;
+  }
+}
+
+@media (min-width: 992px) {
+  .block--views-block--repair-menu-block-1 .contextual-region .views-row .views-field-field-image-repair-term {
+    max-width: none;
+  }
 }
 
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card {
@@ -10725,9 +10738,21 @@ h2 {
   flex: 1 auto;
   display: flex;
   color: #21587f;
-  font-size: 1.125rem;
+  font-size: .85rem;
   line-height: 1.3em;
   text-transform: uppercase;
+}
+
+@media (min-width: 768px) {
+  .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card .views-field-name {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 992px) {
+  .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card .views-field-name {
+    font-size: 1.125rem;
+  }
 }
 
 .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card:hover, .block--views-block--repair-menu-block-1 .contextual-region .views-row .wrap-link-card:active {
