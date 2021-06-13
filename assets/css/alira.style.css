@@ -10690,6 +10690,14 @@ h2 {
 .block--views-block--repair-menu-block-1 .contextual-region {
   display: flex;
   margin: 0 -15px;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 992px) {
+  .block--views-block--repair-menu-block-1 .contextual-region {
+    flex-direction: row;
+  }
 }
 
 .block--views-block--repair-menu-block-1 .contextual-region .views-row {

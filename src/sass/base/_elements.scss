@@ -482,6 +482,11 @@ small {}
   .contextual-region {
     display:flex;
     margin:0 -15px;
+    flex-direction:column;
+    flex-wrap:wrap;
+    @include media-breakpoint-up(lg){
+      flex-direction:row;
+    }
     .views-row {
       display:flex;
       flex-direction:column; 
