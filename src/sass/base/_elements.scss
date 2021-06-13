@@ -190,6 +190,10 @@ small {}
     transition:all 0.3s ease-in-out 0.3s;
     height:100%;
     position:absolute;
+    opacity:.45;
+    @include media-breakpoint-up(lg){
+      opacity:1;
+    }
   }
 }
 .bg-white .slide__body {

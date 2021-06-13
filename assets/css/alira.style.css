@@ -10356,6 +10356,13 @@ h2 {
   transition: all 0.3s ease-in-out 0.3s;
   height: 100%;
   position: absolute;
+  opacity: .45;
+}
+
+@media (min-width: 992px) {
+  .slide__field-image img {
+    opacity: 1;
+  }
 }
 
 .bg-white .slide__body {
