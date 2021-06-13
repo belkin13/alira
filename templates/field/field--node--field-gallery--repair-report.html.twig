@@ -7,7 +7,7 @@
 {%
   set classes = [
   bundle|clean_class ~ '__' ~ field_name_clean|clean_class,
- 'd-flex',
+ 'd-flex','row',
 ]
 %}
 {%
@@ -22,7 +22,7 @@
   {% if multiple %}
     <div{{ attributes.addClass(classes) }}>
       {% for item in items %}
-        <div{{ item.attributes.addClass('col-4') }}>
+        <div{{ item.attributes.addClass('col-6') }}>
             <div class="card">
                 {{ item.content }}
             </div>    
