@@ -10651,6 +10651,18 @@ h2 {
   display: inline-block;
 }
 
+.navbar {
+  position: relative;
+}
+
+.navbar:before {
+  position: absolute;
+  width: 100%;
+  border-bottom: 1px solid #fff;
+  left: 0;
+  bottom: 40px;
+}
+
 .navbar-dark .navbar-nav .nav-link {
   font-size: 16px;
   font-weight: 500;
