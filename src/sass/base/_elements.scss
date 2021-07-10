@@ -462,6 +462,7 @@ small {}
       padding-right:.5rem;
       padding-left:.5rem;
       color:$white;
+      text-shadow:1px 1px 1px #000;
       transition:all 0.05s ease-in-out 0.05s;
       @include media-breakpoint-up(md){
         font-size:17px;
@@ -472,10 +473,7 @@ small {}
         margin-right:1rem;
       }
       &:hover, &:focus, &.is-active {
-        color:moccasin;
-      }
-      &.is-active {
-        text-shadow:1px 1px 1px #000;
+        color:#00d6ff; //moccasin;   
       }
     }
   }
