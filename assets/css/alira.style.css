@@ -10660,14 +10660,6 @@ h2 {
   margin-top: .75rem;
 }
 
-.delimiter-menu {
-  position: absolute;
-  width: 100%;
-  border-bottom: 1px solid #fff;
-  left: 0;
-  bottom: 55px;
-}
-
 .navbar-dark .navbar-nav .nav-link {
   font-size: 16px;
   font-weight: 500;
