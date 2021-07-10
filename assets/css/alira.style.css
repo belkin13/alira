@@ -10615,6 +10615,12 @@ h2 {
   color: #fff;
 }
 
+@media (min-width: 992px) {
+  .footer-menu .nav {
+    max-width: 850px;
+  }
+}
+
 .block--alira-page-title h1 {
   margin-bottom: 3rem;
 }

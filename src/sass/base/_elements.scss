@@ -405,6 +405,11 @@ small {}
   .nav-link {
     color:#fff;
   }
+  .nav {
+    @include media-breakpoint-up(lg){
+      max-width:850px;
+    }
+  }
 }
 
 .block--alira-page-title {
