@@ -470,6 +470,10 @@ small {}
         font-size:18px;
         margin-right:1rem;
       }
+      &:hover, &.active {
+        text-shadow:1px 1px 1px #000;
+        color:moccasin;
+      }
     }
   }
 } 
