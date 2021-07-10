@@ -442,13 +442,15 @@ small {}
   display:inline-block;
 }
 
-
+.block--alira-main-menu {
+  margin-top:12px;
+}
 .delimiter-menu {
     position:absolute;
     width:100%;
     border-bottom:1px solid $white;
     left:0;
-    bottom:40px;
+    bottom:55px;
 }
 .navbar-dark {
   .navbar-nav {
