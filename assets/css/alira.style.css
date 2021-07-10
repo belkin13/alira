@@ -10129,7 +10129,7 @@ a.text-dark:hover, a.text-dark:focus {
 /* Mixin for generated backgrounds */
 b,
 strong {
-  font-weight: 800;
+  font-weight: 600;
 }
 
 h1 {
@@ -10674,7 +10674,7 @@ h2 {
   padding-right: .5rem;
   padding-left: .5rem;
   color: #fff;
-  transition: all 0.1s ease-in-out 0.1s;
+  transition: all 0.05s ease-in-out 0.05s;
 }
 
 @media (min-width: 768px) {
