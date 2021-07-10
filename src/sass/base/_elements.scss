@@ -462,6 +462,7 @@ small {}
       padding-right:.5rem;
       padding-left:.5rem;
       color:$white;
+      transition:all 0.1s ease-in-out 0.1s;
       @include media-breakpoint-up(md){
         font-size:17px;
         
@@ -470,9 +471,11 @@ small {}
         font-size:18px;
         margin-right:1rem;
       }
-      &:hover, &.active {
-        text-shadow:1px 1px 1px #000;
+      &:hover, &:focus, &.is-active {
         color:moccasin;
+      }
+      &.is-active {
+        text-shadow:1px 1px 1px #000;
       }
     }
   }
