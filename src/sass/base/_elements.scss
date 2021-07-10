@@ -3,7 +3,9 @@
 h1, h2, h3, h4, h5, h6 {
 
 }
-
+b, strong {
+  font-weight:800;
+}
 h1 {
   font-size:1.5rem;
   margin-bottom:1.5rem;
@@ -268,7 +270,7 @@ small {}
     flex:1 0 auto;
     padding:20px 15px;
     font-size:14px;
-    font-weight:600;
+    font-weight:400;
     text-transform:uppercase;
     .field-content {
       display:flex;
