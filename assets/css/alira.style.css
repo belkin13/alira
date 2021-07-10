@@ -10655,7 +10655,7 @@ h2 {
   position: relative;
 }
 
-.navbar:before {
+.navbar::before {
   position: absolute;
   width: 100%;
   border-bottom: 1px solid #fff;

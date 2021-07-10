@@ -445,7 +445,7 @@ small {}
 
 .navbar {
   position:relative;
-  &:before {
+  &::before {
     position:absolute;
     width:100%;
     border-bottom:1px solid $white;
