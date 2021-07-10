@@ -10678,21 +10678,21 @@ h2 {
 
 @media (min-width: 992px) {
   .navbar-dark .navbar-nav .nav-link {
-    font-size: 17px;
-    margin-right: .7rem;
+    font-size: 15px;
   }
 }
 
 @media (min-width: 1200px) {
   .navbar-dark .navbar-nav .nav-link {
     font-size: 17px;
-    margin-right: 1rem;
+    margin-right: .75rem;
   }
 }
 
 @media (min-width: 1600px) {
   .navbar-dark .navbar-nav .nav-link {
     font-size: 18px;
+    margin-right: 1rem;
   }
 }
 
