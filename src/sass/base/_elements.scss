@@ -466,8 +466,11 @@ small {}
         margin-right:.7rem;
       }
       @include media-breakpoint-up(xl){
-        font-size:18px;
+        font-size:17px;
         margin-right:1rem;
+      }
+      @include media-breakpoint-up(xxl){
+        font-size:18px;
       }
       &:hover, &:focus, &.is-active {
         color:#00d6ff; //moccasin;   
