@@ -10652,10 +10652,6 @@ h2 {
 }
 
 .delimiter-menu {
-  position: relative;
-}
-
-.delimiter-menu::before {
   position: absolute;
   width: 100%;
   border-bottom: 1px solid #fff;
