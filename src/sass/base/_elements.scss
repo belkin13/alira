@@ -472,9 +472,6 @@ small {}
       @include media-breakpoint-up(xxl){
         font-size:18px;
       }
-      &:hover, &:focus, &.is-active {
-        color:#00d6ff; //moccasin;   
-      }
     }
   }
 } 
