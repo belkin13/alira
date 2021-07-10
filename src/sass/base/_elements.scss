@@ -465,10 +465,14 @@ small {}
       text-shadow:1px 1px 1px #000;
       transition:all 0.05s ease-in-out 0.05s;
       @include media-breakpoint-up(md){
-        font-size:17px;
+        font-size:16px;
         
       }
       @include media-breakpoint-up(lg){
+        font-size:17px;
+        margin-right:.7rem;
+      }
+      @include media-breakpoint-up(xl){
         font-size:18px;
         margin-right:1rem;
       }
