@@ -22,7 +22,11 @@
   {% if multiple %}
     <div{{ attributes.addClass(classes) }}>
       {% for item in items %}
+        {% if loop.first %}
+        <div{{ item.attributes.addClass('col-12 mb-3') }}>
+        {% else %}
         <div{{ item.attributes.addClass('col-6 mb-3') }}>
+        {% endif %}
             <div class="card">
                 {{ item.content }}
             </div>    
