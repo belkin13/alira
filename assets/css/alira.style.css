@@ -10855,37 +10855,37 @@ h2 {
   margin: 4px 6px;
 }
 
-.block--views-block--gallery-reports-block-1 {
+.block--views-block--gallery-reports-block-1, .block--views-block--gallery-reports-block-2 {
   margin-bottom: 2rem;
 }
 
 @media (min-width: 768px) {
-  .block--views-block--gallery-reports-block-1 {
+  .block--views-block--gallery-reports-block-1, .block--views-block--gallery-reports-block-2 {
     margin-bottom: 3rem;
   }
 }
 
 @media (min-width: 992px) {
-  .block--views-block--gallery-reports-block-1 {
+  .block--views-block--gallery-reports-block-1, .block--views-block--gallery-reports-block-2 {
     margin-bottom: 4rem;
   }
 }
 
-.block--views-block--gallery-reports-block-1 .owl-wrapper {
+.block--views-block--gallery-reports-block-1 .owl-wrapper, .block--views-block--gallery-reports-block-2 .owl-wrapper {
   display: flex !important;
 }
 
-.block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item > div, .block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .views-field, .block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .field-content, .block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .card {
+.block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item > div, .block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .views-field, .block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .field-content, .block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .card, .block--views-block--gallery-reports-block-2 .owl-wrapper .owl-item > div, .block--views-block--gallery-reports-block-2 .owl-wrapper .owl-item .views-field, .block--views-block--gallery-reports-block-2 .owl-wrapper .owl-item .field-content, .block--views-block--gallery-reports-block-2 .owl-wrapper .owl-item .card {
   height: 100%;
 }
 
-.block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .card-body {
+.block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .card-body, .block--views-block--gallery-reports-block-2 .owl-wrapper .owl-item .card-body {
   align-items: center;
   display: flex;
   background-color: #f8f9fa;
 }
 
-.block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .card-body h6 {
+.block--views-block--gallery-reports-block-1 .owl-wrapper .owl-item .card-body h6, .block--views-block--gallery-reports-block-2 .owl-wrapper .owl-item .card-body h6 {
   color: #000;
 }
 

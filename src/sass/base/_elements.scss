@@ -607,7 +607,7 @@ small {}
   margin:4px 6px;
 }
 
-.block--views-block--gallery-reports-block-1 {
+.block--views-block--gallery-reports-block-1, .block--views-block--gallery-reports-block-2 {
   margin-bottom:2rem;
   @include media-breakpoint-up(md){
     margin-bottom:3rem;
