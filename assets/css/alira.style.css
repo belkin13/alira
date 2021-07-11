@@ -10889,7 +10889,7 @@ h2 {
   color: #000;
 }
 
-.repair-report__field-gallery .card .img-fluid {
+.repair-report__field-gallery .card .img-fluid, .page-node-type-special-offer .card .img-fluid {
   -o-object-fit: contain;
      object-fit: contain;
   position: relative;
