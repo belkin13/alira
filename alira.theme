@@ -67,10 +67,10 @@ function alira_preprocess_file_link(&$variables) {
 
 
   // Set file classes to the options array.
-  $variables['attributes'] = new Attribute($variables['attributes']);
-  $variables['attributes']
-    ->addClass($classes); 
-  $variables['link'] = \Drupal::l($link_text, Url::fromUri($url, $options));
+ // $variables['attributes'] = new Attribute($variables['attributes']);
+ // $variables['attributes']
+ //   ->addClass($classes); 
+ // $variables['link'] = \Drupal::l($link_text, Url::fromUri($url, $options));
 
 
   if (isset($variables['file'])) {
