@@ -495,7 +495,7 @@ small {}
 
 .block--views-block--repair-menu-block-1 {
   margin-bottom:3rem;
-  .contextual-region {
+  > div > div {
     display:flex;
     margin:0 -15px;
     flex-direction:column;
